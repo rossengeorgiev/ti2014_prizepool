@@ -35,7 +35,7 @@ var dataArray = [
 [new Date(1399827601000), 3204793, 3321705],
 [new Date(1399831201000), 3224456, 3347849],
 [new Date(1399834801000), 3243625, 3369811],
-[new Date(1399838401000), 3262324, undefined],
+[new Date(1399838401000), 3262324, 3386406],
 [new Date(1399842001000), 3280575, undefined],
 [new Date(1399845601000), 3298399, undefined],
 [new Date(1399849201000), 3315817, undefined],
@@ -155,4 +155,5 @@ var dataArray = [
 [new Date(1400259601000), 4287020, undefined],
 [new Date(1400263201000), 4291821, undefined],
 [new Date(1400266801000), 4296593, undefined],
+[new Date(1400270401000), 4301334, undefined],
 ]
