@@ -17,11 +17,25 @@
       google.load("visualization", "1", {packages:["corechart"]});
       function drawChart() {
         var data = google.visualization.arrayToDataTable(dataArray);
+		var nformat = new google.visualization.NumberFormat({
+				fractionDigits: 0,
+				prefix: '$'
+			});
+		nformat.format(data, 1);
+		nformat.format(data, 2);
 
         var options = {
             chartArea: { top: 10, left: 80, width: 880, height: "500"},
             legend: { position: "in" },
-            hAxis: { format: "HH:mm\nMMM d\ny" }
+            hAxis: {
+				format: "HH:mm\nMMM d\ny",
+				gridlines: { count: 10 }
+			},
+			vAxis: {
+				format: "$#,###",
+				gridlines: { count: 10 }
+			},
+			pointSize: 3
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('gg'));
@@ -59,6 +73,6 @@
       ga('create', 'UA-50202995-2', 'rossengeorgiev.github.io');
       ga('send', 'pageview');
 
-    </script>        
+    </script>
   </body>
 </html>
