@@ -17,25 +17,38 @@
       google.load("visualization", "1", {packages:["corechart"]});
       function drawChart() {
         var data = google.visualization.arrayToDataTable(dataArray);
-		var nformat = new google.visualization.NumberFormat({
-				fractionDigits: 0,
-				prefix: '$'
-			});
-		nformat.format(data, 1);
-		nformat.format(data, 2);
+        var nformat = new google.visualization.NumberFormat({
+                fractionDigits: 0,
+                prefix: '$'
+            });
+        nformat.format(data, 1);
+        nformat.format(data, 2);
 
         var options = {
             chartArea: { top: 10, left: 80, width: 880, height: "500"},
             legend: { position: "in" },
             hAxis: {
-				format: "HH:mm\nMMM d\ny",
-				gridlines: { count: 10 }
-			},
-			vAxis: {
-				format: "$#,###",
-				gridlines: { count: 10 }
-			},
-			pointSize: 3
+                format: "HH:mm\nMMM d\ny",
+                gridlines: { count: 10 }
+            },
+            vAxis: {
+                ticks: [
+                    {v:1600000, f:"$1,6m"},
+                    {v:1800000, f:"1. $1,8m"},
+                    {v:2000000, f:"2. $2,0m"},
+                    {v:2200000, f:"3. $2,2m"},
+                    {v:2400000, f:"4. $2,4m"},
+                    {v:2600000, f:"5. $2,6m"},
+                    {v:2900000, f:"6. $2,9m"},
+                    {v:3500000, f:"7. $3,5m"},
+                    {v:4000000, f:"8. $3,0m"},
+                    {v:4500000, f:"9. $4,5m"},
+                    {v:5000000, f:"10. $5,0m"},
+                    {v:5500000, f:"11. $5,5m"},
+                    {v:6000000, f:"12. $6,0m"},
+                ]
+            },
+            pointSize: 3
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('gg'));
