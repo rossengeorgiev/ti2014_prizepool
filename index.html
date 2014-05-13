@@ -16,7 +16,7 @@
     <script type="text/javascript">
       google.load("visualization", "1", {packages:["corechart"]});
       function drawChart() {
-        var data = google.visualization.arrayToDataTable(dataArray);
+        var data = new google.visualization.DataTable(dataObj);
         var nformat = new google.visualization.NumberFormat({
                 fractionDigits: 0,
                 prefix: '$'
@@ -24,14 +24,15 @@
         nformat.format(data, 1);
         nformat.format(data, 2);
         nformat.format(data, 3);
-        nformat.format(data, 4);
+        nformat.format(data, 5);
 
         var options = {
             chartArea: { top: 10, left: 80, width: 880, height: "500"},
             legend: { position: "in" },
             hAxis: {
                 format: "HH:mm\nMMM d\ny",
-                gridlines: { count: 10 }
+                gridlines: { count: 10 },
+                title: "Datetime"
             },
             vAxes: {
                 0: {
@@ -55,10 +56,14 @@
                 },
                 1: {
                     textPosition: "none",
+                    minValue:0,
                     ticks: [],
                 }
             },
             series: {
+                2: {
+                    certainty: false,
+                },
                 3: {
                     targetAxisIndex: 1,
                     type: "bars"
