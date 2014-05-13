@@ -17,10 +17,16 @@
       google.load("visualization", "1", {packages:["corechart"]});
       function drawChart() {
         var data = new google.visualization.DataTable(dataObj);
+
         var nformat = new google.visualization.NumberFormat({
-                fractionDigits: 0,
-                prefix: '$'
-            });
+            fractionDigits: 0,
+            prefix: '$'
+        });
+        var dateformat = new google.visualization.DateFormat({
+            pattern: "MMM dd, yyyy, HH:mm"
+        });
+
+        dateformat.format(data, 0);
         nformat.format(data, 1);
         nformat.format(data, 2);
         nformat.format(data, 3);
@@ -32,7 +38,7 @@
             hAxis: {
                 format: "HH:mm\nMMM d\ny",
                 gridlines: { count: 10 },
-                title: "Datetime"
+                title: "Date & time based on your timezone"
             },
             vAxes: {
                 0: {
