@@ -354,8 +354,8 @@ rows: [
     { c:[ {v: new Date(1400932801000)}, {v: undefined}, {v: 6720832}, {v: ''}, {v: 6596467}, {v: ''}, {v: 6567976}, {v: ''},{v: 6933} ]},
     { c:[ {v: new Date(1400936401000)}, {v: undefined}, {v: 6727154}, {v: ''}, {v: 6602020}, {v: ''}, {v: 6575776}, {v: ''},{v: 7800} ]},
     { c:[ {v: new Date(1400940001000)}, {v: undefined}, {v: 6733464}, {v: ''}, {v: 6607561}, {v: ''}, {v: 6583075}, {v: 'Prediction #3'},{v: 7299} ]},
-    { c:[ {v: new Date(1400943601000)}, {v: undefined}, {v: 6739762}, {v: ''}, {v: 6613090}, {v: ''}, {v: 6590629}, {v: '$6,590,629'},{v: 7554} ]},
-    { c:[ {v: new Date(1400947201000)}, {v: undefined}, {v: 6746049}, {v:''}, {v: 6618607}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
+    { c:[ {v: new Date(1400943601000)}, {v: undefined}, {v: 6739762}, {v: ''}, {v: 6613090}, {v: ''}, {v: 6590629}, {v: ''},{v: 7554} ]},
+    { c:[ {v: new Date(1400947201000)}, {v: undefined}, {v: 6746049}, {v: ''}, {v: 6618607}, {v: ''}, {v: 6598129}, {v: '$6,598,129'},{v: 7500} ]},
     { c:[ {v: new Date(1400950801000)}, {v: undefined}, {v: 6752324}, {v:''}, {v: 6624111}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1400954401000)}, {v: undefined}, {v: 6758587}, {v:''}, {v: 6629603}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1400958001000)}, {v: undefined}, {v: 6764839}, {v:''}, {v: 6635083}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
@@ -475,4 +475,5 @@ rows: [
     { c:[ {v: new Date(1401368401000)}, {v: undefined}, {v: 7412891}, {v:''}, {v: 7192903}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1401372001000)}, {v: undefined}, {v: 7418090}, {v:''}, {v: 7197299}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1401375601000)}, {v: undefined}, {v: 7423282}, {v:''}, {v: 7201687}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
+    { c:[ {v: new Date(1401379201000)}, {v: undefined}, {v: 7428466}, {v:''}, {v: 7206069}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
 ]}
