@@ -549,8 +549,8 @@ rows: [
     { c:[ {v: new Date(1401634801000)}, {v: undefined}, {v: 7779439}, {v: ''}, {v: 7367028}, {v: ''}, {v: 8032734}, {v: ''},{v: 15474} ]},
     { c:[ {v: new Date(1401638401000)}, {v: undefined}, {v: 7784160}, {v: ''}, {v: 7370396}, {v: ''}, {v: 8047563}, {v: ''},{v: 14829} ]},
     { c:[ {v: new Date(1401642002000)}, {v: undefined}, {v: 7788876}, {v: ''}, {v: 7373759}, {v: ''}, {v: 8061454}, {v: ''},{v: 13891} ]},
-    { c:[ {v: new Date(1401645601000)}, {v: undefined}, {v: 7793584}, {v: ''}, {v: 7377114}, {v: ''}, {v: 8073931}, {v: '$8,073,931'},{v: 12477} ]},
-    { c:[ {v: new Date(1401649201000)}, {v: undefined}, {v: 7798287}, {v:''}, {v: 7380465}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
+    { c:[ {v: new Date(1401645601000)}, {v: undefined}, {v: 7793584}, {v: ''}, {v: 7377114}, {v: ''}, {v: 8073931}, {v: ''},{v: 12477} ]},
+    { c:[ {v: new Date(1401649201000)}, {v: undefined}, {v: 7798287}, {v: ''}, {v: 7380465}, {v: ''}, {v: 8085862}, {v: '$8,085,862'},{v: 11931} ]},
     { c:[ {v: new Date(1401652801000)}, {v: undefined}, {v: 7802985}, {v:''}, {v: 7383810}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1401656401000)}, {v: undefined}, {v: 7807677}, {v:''}, {v: 7387149}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1401660001000)}, {v: undefined}, {v: 7812363}, {v:''}, {v: 7390482}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
@@ -670,4 +670,5 @@ rows: [
     { c:[ {v: new Date(1402070401000)}, {v: undefined}, {v: 8313381}, {v:''}, {v: 7737100}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1402074001000)}, {v: undefined}, {v: 8317513}, {v:''}, {v: 7739882}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1402077601000)}, {v: undefined}, {v: 8321641}, {v:''}, {v: 7742659}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
+    { c:[ {v: new Date(1402081201000)}, {v: undefined}, {v: 8325765}, {v:''}, {v: 7745432}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
 ]}
