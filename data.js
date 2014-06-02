@@ -560,8 +560,8 @@ rows: [
     { c:[ {v: new Date(1401674401000)}, {v: undefined}, {v: 7831053}, {v: ''}, {v: 7403758}, {v: ''}, {v: 8129727}, {v: ''},{v: 4593} ]},
     { c:[ {v: new Date(1401678001000)}, {v: undefined}, {v: 7835711}, {v: ''}, {v: 7407062}, {v: ''}, {v: 8135893}, {v: ''},{v: 6166} ]},
     { c:[ {v: new Date(1401681601000)}, {v: undefined}, {v: 7840364}, {v: ''}, {v: 7410361}, {v: ''}, {v: 8143136}, {v: ''},{v: 7243} ]},
-    { c:[ {v: new Date(1401685201000)}, {v: undefined}, {v: 7845012}, {v: ''}, {v: 7413655}, {v: ''}, {v: 8150725}, {v: '$8,150,725'},{v: 7589} ]},
-    { c:[ {v: new Date(1401688801000)}, {v: undefined}, {v: 7849653}, {v:''}, {v: 7416943}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
+    { c:[ {v: new Date(1401685201000)}, {v: undefined}, {v: 7845012}, {v: ''}, {v: 7413655}, {v: ''}, {v: 8150725}, {v: ''},{v: 7589} ]},
+    { c:[ {v: new Date(1401688801000)}, {v: undefined}, {v: 7849653}, {v: ''}, {v: 7416943}, {v: ''}, {v: 8158807}, {v: '$8,158,807'},{v: 8082} ]},
     { c:[ {v: new Date(1401692401000)}, {v: undefined}, {v: 7854290}, {v:''}, {v: 7420225}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1401696001000)}, {v: undefined}, {v: 7858921}, {v:''}, {v: 7423502}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1401699601000)}, {v: undefined}, {v: 7863546}, {v:''}, {v: 7426773}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
@@ -681,4 +681,5 @@ rows: [
     { c:[ {v: new Date(1402110001000)}, {v: undefined}, {v: 8358611}, {v:''}, {v: 7767477}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1402113601000)}, {v: undefined}, {v: 8362699}, {v:''}, {v: 7770215}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
     { c:[ {v: new Date(1402117201000)}, {v: undefined}, {v: 8366783}, {v:''}, {v: 7772949}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
+    { c:[ {v: new Date(1402120801000)}, {v: undefined}, {v: 8370862}, {v:''}, {v: 7775680}, {v:''}, {v: undefined}, {v: ''}, {v: undefined} ]},
 ]}
